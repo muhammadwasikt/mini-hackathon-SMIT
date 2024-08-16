@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background: transparent;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-image: linear-gradient(to left top,rgb(247, 200, 208) , rgb(245, 183, 194));
+}
+.container{
+    max-width: 500px;
+width: 100vmin;
+text-align: center;
+
+}
+#signin{
+    text-decoration: none;
+    color: rgb(77, 146, 224);
+}
+#signin:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.form{
+    width: 100%;
+    padding: 60px 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.input{
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+::-webkit-input-placeholder{
+    color: black;
+}
+#forget-show{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+margin-top: -10px;
+font-size: smaller;
+}
+#pass-show{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+#forget{
+    text-decoration: none;
+    color: rgb(77, 146, 224);
+}
+#forget:hover{
+    text-decoration: underline;
+    color: blue;
+}
+#reg-btn{
+    width: 100%;
+    padding: 15px;
+    font-size: medium;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(231, 177, 215);
+    box-shadow: 3px 3px 3px 3px rgb(224, 149, 202);
+    cursor: pointer;
+}
+#reg-btn:active{
+    box-shadow: 0px 0px 0px 0px;
+    transform: translateY(3px);
+}
+#google{
+    height: 30px;
+    object-fit: cover;
+    margin-top: 40px;
+    cursor: pointer;
+}

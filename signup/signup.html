@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Authentication</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up</h1>
+        <h5>Already have an account <span><a href="../signin/signin.html" id="signin">Sign in</a></span></h5>
+        <div class="form">
+            <input class="input" type="text" placeholder="Name" id="user-name" required>
+            <input class="input" type="email" placeholder="Email" id="user-email" required>
+            <div id="forget-show">
+                <input class="input3" type="password" placeholder="Password" id="user-password" maxlength="8" required>
+                <input type="checkbox" id="show-pass">
+        </div>
+            <button type="submit" id="reg-btn">Register</button>
+        </div>
+        <p>-------------- <span id="signup">Or sign up with</span> --------------</p>
+        <img id="google" src="google-icon.png" alt="">
+    </div>
+    <script type="module" src="signup.js"></script>
+</body>
+</html>

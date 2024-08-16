@@ -1,0 +1,162 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+}
+
+.none{
+    display: none;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 25px;
+    background-color: #bdbbbb;
+    color: white;
+    outline: none;
+    line-height: 30px;
+}
+#LogOut{
+    display: none;
+}
+#LogOut:hover{
+    color: #007bff;
+}#signUp:hover{
+    color: #007bff;
+}#signIn:hover{
+    color: #007bff;
+}
+#sign{
+    color: black;
+    text-decoration: none;
+}
+#sign:hover{
+    color:blue;
+}
+#blog-container {
+    max-width: 600px;
+    margin:50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* display: none; */
+}
+.blog-container h1{
+    text-align: center;
+}
+.blogForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.blogForm label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.blogForm input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #333;
+}
+.blogForm textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #333;
+}
+
+.blogForm textarea {
+    resize: vertical;
+}
+
+.blogEorm button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.blogForm button:hover {
+    background-color: #5bb5f1;
+}
+#plusIcon{
+    width: 100%;
+    font-size: 130px;
+    background-color: white;
+    border: none;
+    color: #999;
+}
+.blog-div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.blogCard {
+    max-width: 250px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.blogCard h1{
+    font-size: 100px;
+    text-align: center;
+    color: #999;
+}
+.blogCard p{
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+}
+.blogContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.blogTitle {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.blogDescription {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.blogDate {
+    font-size: 0.9em;
+    color: #999;
+    margin-top: auto;
+}
+
