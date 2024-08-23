@@ -8,14 +8,14 @@
  // https://firebase.google.com/docs/web/setup#available-libraries
 
  // Your web app's Firebase configuration
- const firebaseConfig = {
-   apiKey: "AIzaSyDd12R5hmCbb11Q3y7V_jLrkztIbY77ZuM",
-   authDomain: "fir-auth-95638.firebaseapp.com",
-   projectId: "fir-auth-95638",
-   storageBucket: "fir-auth-95638.appspot.com",
-   messagingSenderId: "585901346305",
-   appId: "1:585901346305:web:4cf0535e011b40e40e7a00"
- };
+   const firebaseConfig = {
+    apiKey: "AIzaSyBQ28c5obCnhon8GF52WWq3LBMNY-SVfcY",
+    authDomain: "fir-authentication-579a2.firebaseapp.com",
+    projectId: "fir-authentication-579a2",
+    storageBucket: "fir-authentication-579a2.appspot.com",
+    messagingSenderId: "161731544495",
+    appId: "1:161731544495:web:79c6dba133e9a912eb9b5a"
+  };
 
  // Initialize Firebase
  const app = initializeApp(firebaseConfig);
